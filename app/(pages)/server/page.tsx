@@ -1,7 +1,7 @@
 import { auth } from "@/app/_auth";
 import React from "react";
 
-const Server: React.FC = async () => {
+const Server = async () => {
   const session = await auth();
 
   return (
